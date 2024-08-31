@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(3, 4, 94, 0.8);
+  font-family: sans-serif;
+}
+
+/* HEADER-NAVBAR-LOGO */
+.header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(3, 4, 94);
+  background-color: rgb(195, 235, 255);
+  border-radius: 0  0 10px 10px;
+}
+
+.header > .nav > .ul_nav{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.header > .nav > .ul_nav > .li_nav{
+  list-style: none;
+}
+
+.header > .nav > .ul_nav > .li_nav > .link_li{
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 10px 15px;
+  color: rgb(3, 4, 94);
+  transition: background-color 0.2s, border-radius 0.2s;
+}
+.header > .nav > .ul_nav > .li_nav > .link_li:hover{
+  background-color: rgba(150, 219, 253, 0.4);
+  border-radius: 10px;
+}
+
+.header > .nav > .ul_nav > .li_nav .btn--registro{
+  background-color: rgb(3, 4, 94);
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+}
+.header > .nav > .ul_nav > .li_nav .btn--registro:hover{
+  background-color: rgb(0, 2, 131);
+}
+
+.header > .logo > .titulo_logo{
+  padding: 10px 0;
+}
