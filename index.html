@@ -33,6 +33,7 @@
 </head>
 
 <body>
+  <!-- HEADER-NAVBAR -->
   <header class="header">
     <nav class="nav">
       <ul class="ul_nav">
@@ -42,10 +43,39 @@
         <li class="li_nav"><a href="#" class="link_li btn--registro">Registrarse</a></li>
       </ul>
     </nav>
+
     <div class="logo">
       <h1 class="titulo_logo">MaoDev</h1>
     </div>
   </header>
+
+  <!-- VentanaModalRegistro -->
+  <dialog open>
+    <div class="modal_content">
+      <h2 class="modal_title">Registro</h2>
+      <form class="modal_form" method="dialog">
+        <fieldset>
+          <legend>Información Básica</legend>
+          <label for="nombreApellido">
+            Nombre y Apellido:
+            <input type="text" id="nombreApellido" name="nombreApellido" autocomplete="name" required />
+          </label>
+          <label for="user">
+            Usuario:
+            <input type="text" id="user" name="user" autocomplete="username" required />
+          </label>
+          <label for="email">
+            Email:
+            <input type="email" id="email" name="email" autocomplete="email" required />
+          </label>
+        </fieldset>
+        <section class="modal_btn">
+          <button class="btn modal_registro">Registrarse</button>
+          <button class="btn modal_cancel">Cancelar</button>
+        </section>
+      </form>
+    </div>
+  </dialog>
 </body>
 
 </html>
