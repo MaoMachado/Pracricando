@@ -35,6 +35,8 @@
 <body>
   <!-- HEADER-NAVBAR -->
   <header class="header">
+    <input type="checkbox" id="open_menu">
+    <label for="open_menu" class="open_nav-buttom" role="button">=</label>
     <nav class="nav">
       <ul class="ul_nav">
         <li class="li_nav"><a href="#" class="link_li">Inicio</a></li>
@@ -50,7 +52,7 @@
   </header>
 
   <!-- VentanaModalRegistro -->
-  <dialog open>
+  <dialog>
     <div class="modal_content">
       <h2 class="modal_title">Registro</h2>
       <form class="modal_form" method="dialog">
@@ -76,6 +78,105 @@
       </form>
     </div>
   </dialog>
+
+  <!----------------------------------- CONTENIDO PRINCIPAL-TARJETA -->
+  <main class="perfil">
+    <section class="perfil_wrapper">
+      <div class="perfil_img-container">
+        <img class="perfil_img" src="images/maoDev.jpg" alt="Foto de MaoMachado" />
+      </div>
+      <div class="perfil_data-contenido">
+        <div class="perfil_data">
+          <div class="perfil_descripcion">
+            <h2 class="perfil_titulo">MaoMachado</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem molestias veritatis, iure
+              eligendi, suscipit maxime omnis commodi aliquam at in quod eos possimus inventore enim impedit, porro ab
+              aspernatur natus.
+            </p>
+          </div>
+
+          <div class="perfil_skills-contenido">
+            <h2>SKILLS</h2>
+            <ul>
+              <li class="perfil_skill">
+                <div class="load_bar">
+                  <div class="load-bar_bar bar--80">80%</div>
+                </div>
+                <span class="perfil_skills-name">HTML</span>
+              </li>
+
+              <li class="perfil_skill">
+                <div class="load_bar">
+                  <div class="load-bar_bar bar--60">60%</div>
+                </div>
+                <span class="perfil_skills-name">CSS</span>
+              </li>
+
+              <li class="perfil_skill">
+                <div class="load_bar">
+                  <div class="load-bar_bar bar--70">70%</div>
+                </div>
+                <span class="perfil_skills-name">JS</span>
+              </li>
+
+              <li class="perfil_skill">
+                <div class="load_bar">
+                  <div class="load-bar_bar bar--30">30%</div>
+                </div>
+                <span class="perfil_skills-name">REACT</span>
+              </li>
+
+              <li class="perfil_skill">
+                <div class="load_bar">
+                  <div class="load-bar_bar bar--20">20%</div>
+                </div>
+                <span class="perfil_skills-name">SQL</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- ---------------------------------CONTENIDO PORTFOLIO -->
+  <div class="porfolio_contenido">
+    <section class="portfolio">
+      <h2>PORTFOLIO</h2>
+      <article class="portfolio_proyecto">
+        <h2 class="portfolio_proyecto-name">Proyecto</h2>
+      </article>
+
+      <article class="portfolio_proyecto">
+        <h2 class="portfolio_proyecto-name">Proyecto</h2>
+      </article>
+
+      <article class="portfolio_proyecto">
+        <h2 class="portfolio_proyecto-name">Proyecto</h2>
+      </article>
+
+      <article class="portfolio_proyecto">
+        <h2 class="portfolio_proyecto-name">Proyecto</h2>
+      </article>
+
+      <article class="portfolio_proyecto">
+        <h2 class="portfolio_proyecto-name">Proyecto</h2>
+      </article>
+
+      <article class="portfolio_proyecto">
+        <h2 class="portfolio_proyecto-name">Proyecto</h2>
+      </article>
+    </section>
+  </div>
+
+  <!-- ---------------------------------CONTENIDO FOOTER -->
+  <footer>
+    <p>
+      <strong>MaoDev</strong> - Copyright
+    </p>
+  </footer>
 </body>
 
 </html>

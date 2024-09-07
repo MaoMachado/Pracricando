@@ -9,12 +9,3 @@ btnRegistro.addEventListener('click', () => {
 btnCerrar.addEventListener('click', () => {
   modal.close();
 });
-
-// modal.addEventListener('click', function () {
-//   modal.classList.add('closing');
-
-//   setTimeout(() => {
-//     modal.classList.remove('closing');
-//     modal.close();
-//   }, 300)
-// })
